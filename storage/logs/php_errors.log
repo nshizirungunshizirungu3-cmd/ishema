@@ -1,0 +1,372 @@
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:40:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:40:42 UTC] PHP Fatal error:  Uncaught Error: Class "App\Middleware\GuestMiddleware" not found in D:\ishema\app\Core\Router.php:159
+Stack trace:
+#0 D:\ishema\app\Core\Router.php(74): App\Core\Router::runMiddleware('guest')
+#1 C:\Users\BBG\AppData\Local\Temp\kilo\http-test.php(68): App\Core\Router::dispatch()
+#2 C:\Users\BBG\AppData\Local\Temp\kilo\http-test.php(86): simulateRequest('GET', '/login')
+#3 {main}
+  thrown in D:\ishema\app\Core\Router.php on line 159
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:42:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:44:36 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:44:36 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:44:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:44:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\Business::whereNull() in D:\ishema\app\Models\RestaurantModels.php:57
+Stack trace:
+#0 D:\ishema\app\Services\ReportService.php(26): App\Models\Business::stats()
+#1 D:\ishema\app\Controllers\SuperAdminController.php(28): App\Services\ReportService::platformStats()
+#2 [internal function]: App\Controllers\SuperAdminController->index()
+#3 D:\ishema\app\Core\Router.php(139): call_user_func_array(Array, Array)
+#4 D:\ishema\app\Core\Router.php(80): App\Core\Router::execute(Array, Array)
+#5 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(66): App\Core\Router::dispatch()
+#6 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(74): dispatchAs('GET', '/admin', Array)
+#7 {main}
+  thrown in D:\ishema\app\Models\RestaurantModels.php on line 57
+[03-Oct-2026 17:45:58 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:45:58 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:45:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:45:58 UTC] PHP Fatal error:  Uncaught Error: Class "App\Models\Database" not found in D:\ishema\app\Models\RestaurantModels.php:72
+Stack trace:
+#0 D:\ishema\app\Services\ReportService.php(28): App\Models\Business::revenue()
+#1 D:\ishema\app\Controllers\SuperAdminController.php(28): App\Services\ReportService::platformStats()
+#2 [internal function]: App\Controllers\SuperAdminController->index()
+#3 D:\ishema\app\Core\Router.php(139): call_user_func_array(Array, Array)
+#4 D:\ishema\app\Core\Router.php(80): App\Core\Router::execute(Array, Array)
+#5 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(66): App\Core\Router::dispatch()
+#6 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(74): dispatchAs('GET', '/admin', Array)
+#7 {main}
+  thrown in D:\ishema\app\Models\RestaurantModels.php on line 72
+[03-Oct-2026 17:47:14 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:47:14 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:47:14 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:47:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2026-10-03 00:00:00 ?' at line 1 in D:\ishema\app\Core\Database.php:50
+Stack trace:
+#0 D:\ishema\app\Core\Database.php(50): PDO->prepare('SELECT COUNT(*)...')
+#1 D:\ishema\app\Models\BaseModel.php(255): App\Core\Database::run('SELECT COUNT(*)...', Array)
+#2 D:\ishema\app\Models\RestaurantModels.php(328): App\Models\Query->count()
+#3 D:\ishema\app\Services\ReportService.php(72): App\Models\Order::stats(1)
+#4 D:\ishema\app\Controllers\DashboardController.php(36): App\Services\ReportService::businessOverview(1, 'RESTAURANT')
+#5 [internal function]: App\Controllers\DashboardController->index()
+#6 D:\ishema\app\Core\Router.php(139): call_user_func_array(Array, Array)
+#7 D:\ishema\app\Core\Router.php(80): App\Core\Router::execute(Array, Array)
+#8 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(66): App\Core\Router::dispatch()
+#9 C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php(80): dispatchAs('GET', '/dashboard', Array)
+#10 {main}
+  thrown in D:\ishema\app\Core\Database.php on line 50
+[03-Oct-2026 17:48:46 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:48:46 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:48:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:48:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php:50) in D:\ishema\app\Middleware\AuthMiddleware.php on line 24
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:49:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 17:49:49 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 20
+[03-Oct-2026 17:49:49 UTC] PHP Warning:  session_name(): Session name cannot be changed after headers have already been sent in D:\ishema\app\Core\Session.php on line 28
+[03-Oct-2026 17:49:49 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in D:\ishema\app\Core\Session.php on line 29
+[03-Oct-2026 17:49:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\BBG\AppData\Local\Temp\kilo\http-auth-test.php:50) in D:\ishema\app\Middleware\AuthMiddleware.php on line 24
+[03-Oct-2026 17:59:45 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 17:59:45 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:04:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:04:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:05:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:05:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:06:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:07:29 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:07:29 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:14:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:14:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:14:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:14:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:15:23 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:15:23 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:15:37 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:15:37 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:15:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:15:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:15:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:15:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:11 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:14 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:43 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:43 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:16:59 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:17:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:17:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:17:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:17:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $ownerLink in D:\ishema\resources\views\admin\business-form.php on line 83
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $subscription in D:\ishema\resources\views\admin\business-form.php on line 110
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $subscription in D:\ishema\resources\views\admin\business-form.php on line 110
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $subscription in D:\ishema\resources\views\admin\business-form.php on line 110
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $subscription in D:\ishema\resources\views\admin\business-form.php on line 118
+[03-Oct-2026 18:19:45 UTC] PHP Warning:  Undefined variable $subscription in D:\ishema\resources\views\admin\business-form.php on line 122
+[03-Oct-2026 18:24:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:24:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:25:14 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:25:14 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:25:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:25:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:26:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:26:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:27:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:27:31 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:27:35 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:27:35 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:27:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:27:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:27:58 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:27:58 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:28:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:28:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:28:28 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:28:28 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:28:36 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:28:36 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:18 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:55:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:55:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:56:38 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:56:38 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:57:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:57:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:57:53 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:57:53 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:57:53 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:57:53 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:57:54 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:57:54 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 18:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 18:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:00:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:00:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:00:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:00:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:02:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:02:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:03:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:03:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:03:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:03:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:05:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:05:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:05:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:05:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:05:22 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:05:22 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:05:22 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:05:22 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:20:36 UTC] PHP Warning:  Undefined array key "in_house" in D:\ishema\resources\views\hotel\overview.php on line 20
+[03-Oct-2026 19:20:36 UTC] PHP Warning:  Undefined array key "today_in" in D:\ishema\resources\views\hotel\overview.php on line 21
+[03-Oct-2026 19:20:36 UTC] PHP Warning:  Undefined array key "today_out" in D:\ishema\resources\views\hotel\overview.php on line 22
+[03-Oct-2026 19:20:36 UTC] PHP Warning:  Undefined array key "room_id" in D:\ishema\resources\views\hotel\services.php on line 45
+[03-Oct-2026 19:20:36 UTC] PHP Warning:  Undefined array key "room_id" in D:\ishema\resources\views\hotel\services.php on line 45
+[03-Oct-2026 19:29:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:29:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:30:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:30:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:30:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:30:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "food_quality" in D:\ishema\resources\views\restaurant\reports.php on line 65
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "service_rating" in D:\ishema\resources\views\restaurant\reports.php on line 66
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "speed_rating" in D:\ishema\resources\views\restaurant\reports.php on line 67
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "in_house" in D:\ishema\resources\views\hotel\overview.php on line 20
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "today_in" in D:\ishema\resources\views\hotel\overview.php on line 21
+[03-Oct-2026 19:33:37 UTC] PHP Warning:  Undefined array key "today_out" in D:\ishema\resources\views\hotel\overview.php on line 22
+[03-Oct-2026 19:33:38 UTC] PHP Warning:  Undefined variable $guest in D:\ishema\resources\views\hotel\booking-form.php on line 62
+[03-Oct-2026 19:33:38 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\hotel\booking-form.php on line 118
+[03-Oct-2026 19:33:38 UTC] PHP Warning:  Undefined array key "room_id" in D:\ishema\resources\views\hotel\services.php on line 45
+[03-Oct-2026 19:33:38 UTC] PHP Warning:  Undefined array key "room_id" in D:\ishema\resources\views\hotel\services.php on line 45
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:34:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:36:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:36:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:36:28 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:36:28 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:03 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:03 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:26 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:26 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:34 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:34 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:42 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:38:57 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:38:57 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:40:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:40:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:40:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:40:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:40:46 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:40:46 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:40:48 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:40:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:40:52 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:37 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:37 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:41:54 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:41:54 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:00 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:00 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:04 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:13 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:13 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:26 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:26 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:30 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:30 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:33 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:39 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:41 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:44 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:44 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:46 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:46 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:42:57 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:42:57 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:00 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:05 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:07 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:10 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:10 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:15 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:19 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:32 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:32 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:35 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:35 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:55 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:55 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:44:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:44:01 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:44:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:44:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:44:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:44:09 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:44:21 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:44:21 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:44:23 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:44:23 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:45:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:45:27 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:45:43 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:45:43 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:45:47 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:45:47 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:45:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:45:49 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:46:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:46:40 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:47:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:47:17 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:47:55 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:47:55 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:48:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:48:16 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
+[03-Oct-2026 19:48:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 60
+[03-Oct-2026 19:48:50 UTC] PHP Warning:  Trying to access array offset on value of type null in D:\ishema\resources\views\layouts\app.php on line 61
